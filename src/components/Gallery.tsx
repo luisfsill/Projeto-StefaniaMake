@@ -21,36 +21,36 @@ const Gallery: React.FC = () => {
   React.useEffect(() => {
     // Define as imagens da pasta public/gallery
     setImages([
-      { src: '/gallery/Maquiafora Piumhi (1).jpg', alt: 'Maquiagem profissional 1' },
-      { src: '/gallery/Maquiafora Piumhi (2).jpg', alt: 'Maquiagem profissional 2' },
-      { src: '/gallery/Maquiafora Piumhi (3).jpg', alt: 'Maquiagem profissional 3' },
-      { src: '/gallery/Maquiafora Piumhi (4).jpg', alt: 'Maquiagem profissional 4' },
-      { src: '/gallery/Maquiafora Piumhi (5).jpg', alt: 'Maquiagem profissional 5' },
-      { src: '/gallery/Maquiafora Piumhi (6).jpg', alt: 'Maquiagem profissional 6' },
-      { src: '/gallery/Maquiafora Piumhi (7).jpg', alt: 'Maquiagem profissional 7' },
-      { src: '/gallery/Maquiafora Piumhi (8).jpg', alt: 'Maquiagem profissional 8' },
-      { src: '/gallery/Maquiafora Piumhi (9).jpg', alt: 'Maquiagem profissional 9' },
-      { src: '/gallery/Maquiafora Piumhi (10).jpg', alt: 'Maquiagem profissional 10' },
-      { src: '/gallery/Maquiafora Piumhi (11).jpg', alt: 'Maquiagem profissional 11' },
-      { src: '/gallery/Maquiafora Piumhi (12).jpg', alt: 'Maquiagem profissional 12' },
-      { src: '/gallery/Maquiafora Piumhi (13).jpg', alt: 'Maquiagem profissional 13' },
-      { src: '/gallery/Maquiafora Piumhi (14).jpg', alt: 'Maquiagem profissional 14' },
-      { src: '/gallery/Maquiafora Piumhi (15).jpg', alt: 'Maquiagem profissional 15' },
-      { src: '/gallery/Maquiafora Piumhi (16).jpg', alt: 'Maquiagem profissional 16' },
-      { src: '/gallery/Maquiafora Piumhi (17).jpg', alt: 'Maquiagem profissional 17' },
-      { src: '/gallery/Maquiafora Piumhi (18).jpg', alt: 'Maquiagem profissional 18' },
-      { src: '/gallery/Maquiafora Piumhi (19).jpg', alt: 'Maquiagem profissional 19' },
-      { src: '/gallery/Maquiafora Piumhi (20).jpg', alt: 'Maquiagem profissional 20' },
-      { src: '/gallery/Maquiafora Piumhi (21).jpg', alt: 'Maquiagem profissional 21' },
-      { src: '/gallery/Maquiafora Piumhi (22).jpg', alt: 'Maquiagem profissional 22' },
-      { src: '/gallery/Maquiafora Piumhi (23).jpg', alt: 'Maquiagem profissional 23' },
-      { src: '/gallery/Maquiafora Piumhi (24).jpg', alt: 'Maquiagem profissional 24' },
-      { src: '/gallery/Maquiafora Piumhi (25).jpg', alt: 'Maquiagem profissional 25' },
-      { src: '/gallery/Maquiafora Piumhi (26).jpg', alt: 'Maquiagem profissional 26' },
-      { src: '/gallery/Maquiafora Piumhi (27).jpg', alt: 'Maquiagem profissional 27' },
-      { src: '/gallery/Maquiafora Piumhi (28).jpg', alt: 'Maquiagem profissional 28' },
-      { src: '/gallery/Maquiafora Piumhi (29).jpg', alt: 'Maquiagem profissional 29' },
-      { src: '/gallery/Maquiafora Piumhi (30).jpg', alt: 'Maquiagem profissional 30' }
+      { src: '/gallery/Maquiadora profissional Piumhi (1).jpg', alt: 'Maquiagem profissional 1' },
+      { src: '/gallery/Maquiadora profissional Piumhi (2).jpg', alt: 'Maquiagem profissional 2' },
+      { src: '/gallery/Maquiadora profissional Piumhi (3).jpg', alt: 'Maquiagem profissional 3' },
+      { src: '/gallery/Maquiadora profissional Piumhi (4).jpg', alt: 'Maquiagem profissional 4' },
+      { src: '/gallery/Maquiadora profissional Piumhi (5).jpg', alt: 'Maquiagem profissional 5' },
+      { src: '/gallery/Maquiadora profissional Piumhi (6).jpg', alt: 'Maquiagem profissional 6' },
+      { src: '/gallery/Maquiadora profissional Piumhi (7).jpg', alt: 'Maquiagem profissional 7' },
+      { src: '/gallery/Maquiadora profissional Piumhi (8).jpg', alt: 'Maquiagem profissional 8' },
+      { src: '/gallery/Maquiadora profissional Piumhi (9).jpg', alt: 'Maquiagem profissional 9' },
+      { src: '/gallery/Maquiadora profissional Piumhi (10).jpg', alt: 'Maquiagem profissional 10' },
+      { src: '/gallery/Maquiadora profissional Piumhi (11).jpg', alt: 'Maquiagem profissional 11' },
+      { src: '/gallery/Maquiadora profissional Piumhi (12).jpg', alt: 'Maquiagem profissional 12' },
+      { src: '/gallery/Maquiadora profissional Piumhi (13).jpg', alt: 'Maquiagem profissional 13' },
+      { src: '/gallery/Maquiadora profissional Piumhi (14).jpg', alt: 'Maquiagem profissional 14' },
+      { src: '/gallery/Maquiadora profissional Piumhi (15).jpg', alt: 'Maquiagem profissional 15' },
+      { src: '/gallery/Maquiadora profissional Piumhi (16).jpg', alt: 'Maquiagem profissional 16' },
+      { src: '/gallery/Maquiadora profissional Piumhi (17).jpg', alt: 'Maquiagem profissional 17' },
+      { src: '/gallery/Maquiadora profissional Piumhi (18).jpg', alt: 'Maquiagem profissional 18' },
+      { src: '/gallery/Maquiadora profissional Piumhi (19).jpg', alt: 'Maquiagem profissional 19' },
+      { src: '/gallery/Maquiadora profissional Piumhi (20).jpg', alt: 'Maquiagem profissional 20' },
+      { src: '/gallery/Maquiadora profissional Piumhi (21).jpg', alt: 'Maquiagem profissional 21' },
+      { src: '/gallery/Maquiadora profissional Piumhi (22).jpg', alt: 'Maquiagem profissional 22' },
+      { src: '/gallery/Maquiadora profissional Piumhi (23).jpg', alt: 'Maquiagem profissional 23' },
+      { src: '/gallery/Maquiadora profissional Piumhi (24).jpg', alt: 'Maquiagem profissional 24' },
+      { src: '/gallery/Maquiadora profissional Piumhi (25).jpg', alt: 'Maquiagem profissional 25' },
+      { src: '/gallery/Maquiadora profissional Piumhi (26).jpg', alt: 'Maquiagem profissional 26' },
+      { src: '/gallery/Maquiadora profissional Piumhi (27).jpg', alt: 'Maquiagem profissional 27' },
+      { src: '/gallery/Maquiadora profissional Piumhi (28).jpg', alt: 'Maquiagem profissional 28' },
+      { src: '/gallery/Maquiadora profissional Piumhi (29).jpg', alt: 'Maquiagem profissional 29' },
+      { src: '/gallery/Maquiadora profissional Piumhi (30).jpg', alt: 'Maquiagem profissional 30' }
     ]);
   }, []);
 
@@ -189,17 +189,17 @@ const Gallery: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-4 py-12" id="galeria">
       <h2 className="text-3xl font-bold text-center mb-8">Galeria de Trabalhos</h2>
       
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-6xl mx-auto">
         {images.slice(0, 4).map((image: GalleryImage, index: number) => {
           const isLastVisible = index === 3 && images.length > 4;
           
           return (
             <motion.div 
               key={index}
-              className="relative aspect-square overflow-hidden rounded-lg shadow-md cursor-pointer hover:shadow-xl transition-shadow w-full max-w-[200px] mx-auto"
+              className="relative aspect-square overflow-hidden rounded-lg shadow-md cursor-pointer hover:shadow-xl transition-shadow w-full max-w-[400px] mx-auto"
               onClick={() => isLastVisible ? setSelectedIndex(0) : setSelectedIndex(index)}
               whileHover="hover"
               variants={thumbnailHoverVariants}
@@ -247,7 +247,7 @@ const Gallery: React.FC = () => {
 
             <motion.div 
               ref={imageContainerRef}
-              className="max-w-5xl max-h-[90vh] relative"
+              className="max-w-6xl max-h-[90vh] relative"
               onClick={(e: React.MouseEvent) => e.stopPropagation()}
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
@@ -266,7 +266,7 @@ const Gallery: React.FC = () => {
                   <motion.img
                     src={images[selectedIndex].src}
                     alt={images[selectedIndex].alt}
-                    className="max-w-full max-h-[80vh] object-contain rounded-lg"
+                    className="max-w-full max-h-[80vh] w-auto h-auto object-contain rounded-lg transform scale-150"
                     custom={direction}
                     variants={imageVariants}
                     initial="enter"

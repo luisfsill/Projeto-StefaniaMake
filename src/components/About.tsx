@@ -1,38 +1,51 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const About: React.FC = () => {
   return (
-    <section className="mb-20" id="sobre">
-      <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative">
-            <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
-              <img
-                src="/images/Stefania.jpg"
-                alt="Stefânia de Carvalho"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
-          <div>
-            <h2 className="text-4xl font-great-vibes mb-6">Sobre Stefânia de Carvalho</h2>
-            <h3 className="text-xl text-pink-600 font-semibold mb-4">Maquiadora Profissional</h3>
-            <div className="space-y-4 text-gray-600">
-              <p>
-                Com 18 anos de experiência, <span className="font-great-vibes text-xl">Stefânia de Carvalho</span> é especialista em maquiagem para noivas e maquiagem blindada, garantindo beleza impecável e duradoura. Reconhecida por realçar a beleza natural com técnicas exclusivas, ela transforma momentos especiais em memórias inesquecíveis.
-              </p>
-              <p>
-                Seu trabalho vai além da maquiagem: é feito com sensibilidade, dedicação e produtos de alta qualidade, perfeito para noivas, formandas e qualquer ocasião marcante.
-              </p>
-              <p className="text-lg font-semibold text-pink-600 italic">
-                "Beleza que inspira, confiança que encanta."
-              </p>
-            </div>
-          </div>
+    <section className="py-12" id="sobre">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold text-center mb-8">Sobre Mim</h2>
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          <motion.div 
+            className="w-full md:w-1/2"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <img
+              src="/images/Stefania.jpg"
+              alt="Stefânia Carvalho"
+              className="rounded-lg shadow-lg w-full max-w-md mx-auto"
+            />
+          </motion.div>
+          <motion.div 
+            className="w-full md:w-1/2"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <p className="text-lg text-gray-700 mb-4">
+              Olá! Sou Stefânia Carvalho, maquiadora profissional apaixonada por realçar a beleza única de cada pessoa.
+              Com anos de experiência no mercado de beleza, especializo-me em maquiagens para noivas, eventos sociais
+              e produções especiais.
+            </p>
+            <p className="text-lg text-gray-700 mb-4">
+              Minha jornada na maquiagem começou com uma paixão por transformar e valorizar a beleza natural de cada
+              cliente. Hoje, tenho o privilégio de fazer parte de momentos especiais, criando looks personalizados
+              que destacam a beleza individual de cada pessoa.
+            </p>
+            <p className="text-lg text-gray-700">
+              Trabalho com produtos de alta qualidade e técnicas modernas para garantir um resultado duradouro e
+              impecável. Meu objetivo é fazer você se sentir confiante e deslumbrante em qualquer ocasião.
+            </p>
+          </motion.div>
         </div>
       </div>
     </section>
   );
 };
 
-export default About; 
+export default About;
